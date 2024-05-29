@@ -1,5 +1,6 @@
 ## getPriority function
 If there are many cases, the switch statement can become harder to maintain. 
+
 <img width="432" alt="image" src="https://github.com/zianncupcake/Cheong-Zi-Ann/assets/100258157/25b352e0-c7bf-40e2-ba2d-32ca525ce9d4">
 
 Improvement: Accessing a value from an object using its key has constant time complexity, thus it is more efficient than linearly searching through a switch statement.
