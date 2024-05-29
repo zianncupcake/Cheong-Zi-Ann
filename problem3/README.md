@@ -71,4 +71,7 @@ Improvement: Specifying the return type in formattedBalances
 ## rows
 The expected type of balance params is FormattedWalletBalance but the mapped items from sortedBalances are type WalletBalance
 
+<img width="562" alt="image" src="https://github.com/zianncupcake/Cheong-Zi-Ann/assets/100258157/cbb5bf78-6b95-46a9-a6fc-2a7ddb5545df">
+
+
 Improvement: Change expected params to WalletBalance
