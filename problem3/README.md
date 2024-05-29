@@ -37,20 +37,20 @@ Either a typo or an undeclared variable
 Improvement: rename to balancePriority which is used in the filtering logic
 
 ### .filter: 
-    1. Nested if statements make the logic harder to follow 
-    2. The filter method already returns a boolean value based on the conditions, return true/false statements are redundant
+- Nested if statements make the logic harder to follow
+- The filter method already returns a boolean value based on the conditions, return true/false statements are redundant
     
-    <img width="497" alt="image" src="https://github.com/zianncupcake/Cheong-Zi-Ann/assets/100258157/62918ec8-f7d2-464f-bb1b-f84d5abb2066">
+<img width="497" alt="image" src="https://github.com/zianncupcake/Cheong-Zi-Ann/assets/100258157/62918ec8-f7d2-464f-bb1b-f84d5abb2066">
 
 Improvement: 
-    1. Combine 2 conditions into 1 statement
-    2. Remove return staterments
+- Combine 2 conditions into 1 statement
+- Remove return staterments
 
 ### .sort:
-    1. It does not handle the case of if values are equal 
-    2. Redundant conditional checks
-    
-    <img width="466" alt="image" src="https://github.com/zianncupcake/Cheong-Zi-Ann/assets/100258157/8343c117-e5e3-4437-8487-19e361b4a67f">
+- It does not handle the case of if values are equal 
+- Redundant conditional checks
+
+<img width="466" alt="image" src="https://github.com/zianncupcake/Cheong-Zi-Ann/assets/100258157/8343c117-e5e3-4437-8487-19e361b4a67f">
     
 Improvement: Using the subtraction operation rightPriority - leftPriority directly expresses the comparison in a more concise and efficient manner
 
