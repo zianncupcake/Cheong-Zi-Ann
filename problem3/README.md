@@ -29,13 +29,14 @@ FormattedWalletBalance interface as a whole might be redundant when the addition
 Improvement: Remove FormattedWalletBalance interface and directly input formatted amount into WalletRow params. Priority values can be accessed directly
 
 ## sortedBalances
-Variable lhsPriority: Either a typo or an undeclared variable
+### Variable lhsPriority
+Either a typo or an undeclared variable
 
 <img width="201" alt="image" src="https://github.com/zianncupcake/Cheong-Zi-Ann/assets/100258157/ba48c0e1-930d-4eff-8826-75ec3c7d8eab">
 
 Improvement: rename to balancePriority which is used in the filtering logic
 
-.filter: 
+### .filter: 
     1. Nested if statements make the logic harder to follow 
     2. The filter method already returns a boolean value based on the conditions, return true/false statements are redundant
     
@@ -45,7 +46,7 @@ Improvement:
     1. Combine 2 conditions into 1 statement
     2. Remove return staterments
 
-.sort:
+### .sort:
     1. It does not handle the case of if values are equal 
     2. Redundant conditional checks
     
@@ -53,7 +54,8 @@ Improvement:
     
 Improvement: Using the subtraction operation rightPriority - leftPriority directly expresses the comparison in a more concise and efficient manner
 
-prices dependency array: Including prices in the dependency array might cause unnecesary recalculations. since prices is not directly used in the calculation of sortedBalances
+### prices dependency array
+Including prices in the dependency array might cause unnecesary recalculations. since prices is not directly used in the calculation of sortedBalances
 
 <img width="237" alt="image" src="https://github.com/zianncupcake/Cheong-Zi-Ann/assets/100258157/7f64d2b3-c3eb-4786-91ce-e0c4b968c38f">
 
