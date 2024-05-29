@@ -67,3 +67,8 @@ The output is not type safe
 <img width="635" alt="image" src="https://github.com/zianncupcake/Cheong-Zi-Ann/assets/100258157/67c7ec9b-cae1-4a61-adb4-a584928704a6">
 
 Improvement: Specifying the return type in formattedBalances
+
+## rows
+The expected type of balance params is FormattedWalletBalance but the mapped items from sortedBalances are type WalletBalance
+
+Improvement: Change expected params to WalletBalance
