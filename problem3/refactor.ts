@@ -35,7 +35,7 @@ const WalletPage: React.FC<Props> = (props: Props) => {
       .sort((lhs: WalletBalance, rhs: WalletBalance) => rhs.priority - lhs.priority);
   }, [balances]);
 
-  // this is redundant in my code, but this is how i would enfore the output type
+  // this is redundant in my code, but this is how i would enforce the output type
   const formattedBalances: FormattedWalletBalance[] = sortedBalances.map((balance: WalletBalance) => {
     return {
       ...balance,
