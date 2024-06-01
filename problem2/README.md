@@ -2,6 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Demo 
+### Types of validation
+
+
+https://github.com/zianncupcake/Cheong-Zi-Ann/assets/100258157/7e849913-d945-4c18-a86e-17ac5c0eadd4
+
+### Successful transfer
+
+
+https://github.com/zianncupcake/Cheong-Zi-Ann/assets/100258157/056210ff-c578-47a4-9b38-ff3398b9abff
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
