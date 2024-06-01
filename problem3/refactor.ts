@@ -4,7 +4,7 @@ interface WalletBalance {
   priority: number;
 }
 
-//redundant in the code, but this is how i would refactor it if this additional interface is required
+//redundant in my code, but this is how i would refactor it if this additional interface is required
 interface FormattedWalletBalance extends WalletBalance {
   formatted: string;
 }
